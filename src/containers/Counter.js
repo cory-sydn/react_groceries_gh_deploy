@@ -5,7 +5,7 @@ import ColorPicker from "../components/ColorPicker";
 
 const Counter = () => {
   const [count, setCount] = useState(
-    0 || JSON.parse(localStorage.getItem("result"))
+    JSON.parse(localStorage.getItem("result")) || 0
   );
 
   const handleDecrement = () => {
@@ -24,7 +24,7 @@ const Counter = () => {
 
   return (
     <section className="Counter_section">
-      <div>
+      <div className="Counter_buttons">
         <button onClick={handleDecrement}>-</button>
         {count}
         <button onClick={handleIncrement}>+</button>
