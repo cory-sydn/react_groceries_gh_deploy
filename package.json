@@ -1,7 +1,7 @@
 {
   "name": "react101",
   "version": "0.1.0",
-  "homepage": "https://cory-sydn.github.io/react_groceries_gh_deploy",
+  "homepage": "https://cory-sydn.github.io/gh-deploy-react-groceries",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
